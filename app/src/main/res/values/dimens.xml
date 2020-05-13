@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_pad">5dp</dimen>
+    <dimen name="top_marg">5dp</dimen>
+    <dimen name="l_marg">20dp</dimen>
+</resources>

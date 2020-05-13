@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/welcome">
+
+    <fragment
+        android:id="@+id/welcome"
+        android:name="com.example.blogs.Welcome"
+        android:label="Welcome" >
+        <action
+            android:id="@+id/action_welcome_to_index"
+            app:destination="@id/index" />
+    </fragment>
+    <fragment
+        android:id="@+id/index"
+        android:name="com.example.blogs.Index"
+        android:label="Index" >
+        <action
+            android:id="@+id/action_index_to_welcome"
+            app:popUpTo="@id/welcome" />
+        <action
+            android:id="@+id/action_index_to_post12"
+            app:destination="@id/post12" />
+        <action
+            android:id="@+id/action_index_to_post22"
+            app:destination="@id/post22" />
+    </fragment>
+    <fragment
+        android:id="@+id/post12"
+        android:name="com.example.blogs.Post1"
+        android:label="Post1" >
+        <action
+            android:id="@+id/action_post12_to_index"
+            app:popUpTo="@id/index" />
+    </fragment>
+    <fragment
+        android:id="@+id/post22"
+        android:name="com.example.blogs.Post2"
+        android:label="Post2" >
+        <action
+            android:id="@+id/action_post22_to_index"
+            app:popUpTo="@id/index" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutMe"
+        android:name="com.example.blogs.About"
+        android:label="About">
+        <action
+            android:id="@+id/action_about_to_welcome"
+            app:destination="@id/welcome" />
+    </fragment>
+</navigation>

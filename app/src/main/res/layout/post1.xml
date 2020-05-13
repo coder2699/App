@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/h2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aladin"
+            android:gravity="center"
+            android:text="@string/h1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#3F51B5" />
+
+        <TextView
+            android:id="@+id/sub2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aladin"
+            android:gravity="center"
+            android:text="@string/sub1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#9E1A47"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imgp2"
+            android:layout_width="392dp"
+            android:layout_height="184dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/top_marg"
+            android:paddingTop="@dimen/top_pad"
+            app:srcCompat="@drawable/fb" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/me"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/l_marg"
+                    android:layout_marginTop="@dimen/top_marg"
+                    android:layout_marginRight="@dimen/l_marg"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/roboto"
+                    android:lineSpacingExtra="8sp"
+                    android:text="@string/body1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#131313"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

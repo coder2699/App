@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ab"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_marginTop="@dimen/top_marg"
+            android:paddingTop="@dimen/top_pad"
+            app:srcCompat="@drawable/about" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/me"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/l_marg"
+                    android:layout_marginTop="@dimen/top_marg"
+                    android:layout_marginRight="@dimen/l_marg"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/roboto"
+                    android:lineSpacingExtra="8sp"
+                    android:text="@string/me"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#131313"
+                    android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>
+    </LinearLayout>
+    </layout>

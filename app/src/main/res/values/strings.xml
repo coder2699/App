@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Blogs</string>
+    <string name="heading1">My Blogs</string>
+    <string name="blog1">Blog 1: Overcoming the fear of coding</string>
+    <string name="h1">Overcoming the fear of coding</string>
+    <string name="blog2">Blog 2: Competitive Coding</string>
+    <string name="h2">Competitive Coding</string>
+    <string name="blog3">Blog 3: Embedding Google Maps and Forms on a web page</string>
+    <string name="h3">Embedding Google Maps and Forms on a web page</string>
+    <string name="wel">Welcome to \n My Blogs</string>
+    <string name="About">About Me</string>
+    <string name="sub1">\“ It\'s You vs You! \”</string>
+    <string name="body1">Whenever we are about to start something new we are always hesitant that we will succeed in it or not. This hesitation serves as a reason in our subconscious to procrastinate it. We must remove this hesitation as it holds us back from achieving our goals. No matter how boring coding appears to you initially or how many errors you get, always keep an eye on your goals, your future. Once you realize how important this will be in shaping your career your concentration will improve.
+     \n\n   Coding is required everywhere, in every field whether it be Web development, Android development, Cyber Security, Machine Learning, and many more. But if you skip coding and learning about various languages, technologies, etc either you won\'t get a technical job or won\'t be able to survive there for long.
+        \n\n Coding for a first-timer can be super exciting or super boring, it completely depends on the mindset of an individual. Initially whatever you feel about coding keep that aside and try to stick to the process of regularly practicing questions, learning new topics, etc. If you are being honest with yourself, soon your fear of coding will vanish and you will start to enjoy writing codes.
+        \n\n \"Work hard for what you want because it won\'t come to you without a fight. You have to be strong and courageous and know that you can do anything you put your mind to. If somebody puts you down or criticizes you, just keep on believing in yourself and turn it into something positive.\"  - (Leah LaBelle)
+        \n\n The very first step to start coding is to pick up a language. Once you have picked up a language, the next step is to set up an integrated development environment (IDE) on your system or use an online IDE to run your codes. Once setup is completed, try running basic, fundamental programs and get comfortable with the syntax and commands used in the language. There are numerous resources available to get the knowledge about a language. All you have to do is to invest your time, maintain your concentration and practice as much as you can. Don\'t be afraid to make mistakes but at the same time learn from your mistakes.
+        \n\n For all the first-timers here is a small but very useful advice, \" Never copy or study solutions of codes before attempting it yourself ". Just make it a habit. If you read solutions before attempting it yourself, your thinking capability won\'t enhance and it will have serious repercussions. The only situation when you can see the solution is after trying everything you know. Once you have seen the solution, note where you were lacking and try not to repeat the same in the future.
+        \n\n Once you have completed a good amount of fundamental questions on basic topics like loops, conditional statements, arrays, etc then you are ready to go to the next level, which will be competitive programming.
+</string>
+
+    <string name="body2">Competitive programming is an event hosted by several organizations where a contestant has to compete against others on coding questions set, within the given time limit. The faster you complete the successfully running code, the better rank you get. Throughout the year many contests are organized on a regular basis. These contests offer alluring cash prizes and in certain cases even provides internship and jobs to best-ranked coders.
+        \n\n Competitive programming skills can also help you to make an entry in big companies like Google, Facebook, Microsoft, Amazon, etc. Since, most of these contests are open for all the students, its a great opportunity for students, especially from tier 2 and tier 3 engineering colleges. If you are able to perform well in these reputed contests, it will be great for your career.
+        \n\n Reading the first two paragraphs, most beginners feel intimidated by competitive programming. They make it a huge deal and are afraid to give it a shot.
+        \n\n \" Success doesn\'t come overnight.\"
+        \n\n If you don\'t want an average salary and mass-recruitment, you really have to work hard. No one will pay you fortunes for an easy task. Why are we afraid of it being tough? Why we want everything to be easy? It will surely be tough, but its not an impossible task. There is a process for every task. All you need is to be patient, work hard and trust the process.
+        \n\n \" What comes easy won\’t last. What lasts won\’t come easy.\"
+        \n\n There are many platforms to practice competitive programming online. HackerRank, HackerEarth, and Codechef are best suited for beginners and Coderforces when you want to raise your level.
+        \n\n According to my opinion, HackerEarth is best suited to start competitive programming. The biggest reason for it is that  HackerEarth provides topic wise practice questions with a decent level. The questions are neither too simple nor too advanced. The benefit of topic wise practice questions is that one can study a topic and get command on that topic by practicing questions on that it. Along with  HackerEarth, your goal should be to achieve badges on HackerRank, it basically keeps you motivated, which is very important during the initial phase.
+        \n\n After completion of the above tasks, you are ready to participate in live challenges on Codechef. This will be a new experience for you. You may fail and not be able to complete the questions in the beginning. But keep trying, do the questions of old contests. Learn from your mistakes and you will improve with time.
+        \n\n Coderforces requires a higher level, hence I am not including it in this post for beginners. But its a great website and your Coderforces account could benefit you a lot. So everyone must try it along with attempting Codechef challenges.
+    </string>
+
+    <string name="me">
+        Lorem ipsum dolor sit amet, mel ludus dignissim ne, esse causae sed ne, saepe definitionem eos eu. Ut vide aliquam iracundia usu, tritani tacimates torquatos in nec. Impetus facilis posidonium eum id, mentitum forensibus interesset his at. Ea eam case fabulas.
+        \n \n Lorem ipsum dolor sit amet, mel ludus dignissim ne, esse causae sed ne, saepe definitionem eos eu. Ut vide aliquam iracundia usu, tritani tacimates torquatos in nec. Impetus facilis posidonium eum id, mentitum forensibus interesset his at. Ea eam case fabulas.
+        \n \n Lorem ipsum dolor sit amet, mel ludus dignissim ne, esse causae sed ne, saepe definitionem eos eu. Ut vide aliquam iracundia usu, tritani tacimates torquatos in nec. Impetus facilis posidonium eum id, mentitum forensibus interesset his at. Ea eam case fabulas.
+    </string>
+
+    <string name="read">Read More</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
