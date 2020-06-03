@@ -1,14 +1,29 @@
 <resources>
-    <string name="app_name">Blogs</string>
+
+    <string name="rating">RATING :  </string>
+
+    <string name="b1">BLOG TITLE: Overcoming the fear of coding</string>
+    <string name="b2">BLOG TITLE: Competitive Coding </string>
+    <string name="b3">BLOG TITLE: Embedding Google Maps and Forms on a web page</string>
+
+
+    <string name="app_name">My Blogs</string>
     <string name="heading1">My Blogs</string>
+
     <string name="blog1">Blog 1: Overcoming the fear of coding</string>
-    <string name="h1">Overcoming the fear of coding</string>
     <string name="blog2">Blog 2: Competitive Coding</string>
-    <string name="h2">Competitive Coding</string>
     <string name="blog3">Blog 3: Embedding Google Maps and Forms on a web page</string>
+
+    <string name="h1">Overcoming the fear of coding</string>
+    <string name="h2">Competitive Coding</string>
     <string name="h3">Embedding Google Maps and Forms on a web page</string>
+
     <string name="wel">Welcome to \n My Blogs</string>
+
     <string name="About">About Me</string>
+
+    <string name="share">Share</string>
+
     <string name="sub1">\“ It\'s You vs You! \”</string>
     <string name="body1">Whenever we are about to start something new we are always hesitant that we will succeed in it or not. This hesitation serves as a reason in our subconscious to procrastinate it. We must remove this hesitation as it holds us back from achieving our goals. No matter how boring coding appears to you initially or how many errors you get, always keep an eye on your goals, your future. Once you realize how important this will be in shaping your career your concentration will improve.
      \n\n   Coding is required everywhere, in every field whether it be Web development, Android development, Cyber Security, Machine Learning, and many more. But if you skip coding and learning about various languages, technologies, etc either you won\'t get a technical job or won\'t be able to survive there for long.
@@ -18,6 +33,7 @@
         \n\n For all the first-timers here is a small but very useful advice, \" Never copy or study solutions of codes before attempting it yourself ". Just make it a habit. If you read solutions before attempting it yourself, your thinking capability won\'t enhance and it will have serious repercussions. The only situation when you can see the solution is after trying everything you know. Once you have seen the solution, note where you were lacking and try not to repeat the same in the future.
         \n\n Once you have completed a good amount of fundamental questions on basic topics like loops, conditional statements, arrays, etc then you are ready to go to the next level, which will be competitive programming.
 </string>
+
 
     <string name="body2">Competitive programming is an event hosted by several organizations where a contestant has to compete against others on coding questions set, within the given time limit. The faster you complete the successfully running code, the better rank you get. Throughout the year many contests are organized on a regular basis. These contests offer alluring cash prizes and in certain cases even provides internship and jobs to best-ranked coders.
         \n\n Competitive programming skills can also help you to make an entry in big companies like Google, Facebook, Microsoft, Amazon, etc. Since, most of these contests are open for all the students, its a great opportunity for students, especially from tier 2 and tier 3 engineering colleges. If you are able to perform well in these reputed contests, it will be great for your career.
@@ -41,4 +57,9 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Lets">Lets Go!</string>
+    <string name="RateBlogs">Rate Blogs</string>
+    <string name="preference_file_key" />
+    <string name="save">Rate it !</string>
+
 </resources>

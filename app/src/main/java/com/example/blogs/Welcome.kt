@@ -22,6 +22,7 @@ class Welcome : Fragment() {
         setHasOptionsMenu(true)
         return binding.root
     }
+
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
         inflater.inflate(R.menu.overflow_menu, menu)

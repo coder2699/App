@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/top_marg"
             android:layout_marginBottom="@dimen/top_marg"
-            android:fontFamily="cursive"
+            android:fontFamily="@font/alegreya_sc_bold_italic"
             android:gravity="center"
             android:text="@string/heading1"
             android:textAppearance="@style/TextAppearance.AppCompat.Display2"
@@ -23,7 +23,8 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -89,39 +90,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/l_marg"
                     android:layout_marginTop="@dimen/top_marg"
-                    android:background="@android:color/holo_green_dark"
-                    android:text="@string/read"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="#120808" />
-
-                <ImageView
-                    android:id="@+id/post3"
-                    android:layout_width="405dp"
-                    android:layout_height="208dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="20dp"
-                    android:paddingTop="@dimen/top_pad"
-                    app:srcCompat="@drawable/afs" />
-
-                <TextView
-                    android:id="@+id/ptxt3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/l_marg"
-                    android:layout_marginTop="@dimen/top_marg"
-                    android:fontFamily="@font/roboto"
-                    android:paddingTop="@dimen/top_pad"
-                    android:text="@string/blog3"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textColor="#130F0F" />
-
-                <Button
-                    android:id="@+id/read3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/l_marg"
-                    android:layout_marginTop="@dimen/top_marg"
-                    android:layout_marginBottom="15dp"
                     android:background="@android:color/holo_green_dark"
                     android:text="@string/read"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"

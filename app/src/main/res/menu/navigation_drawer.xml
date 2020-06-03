@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/aboutMe"
+        android:icon="@drawable/icon"
+        android:title="@string/About" />
+    <item
+        android:id="@+id/rateid"
+        android:icon="@drawable/fea"
+        android:title="@string/RateBlogs" />
+</menu>
